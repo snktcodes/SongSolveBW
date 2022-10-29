@@ -1,0 +1,63 @@
+{
+    "frames": {
+
+        "Part_1": {
+            "frame": { "x": 0, "y": 0, "w": 205, "h": 229 },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 205, "h": 229 },
+            "sourceSize": { "w": 205, "h": 229 }
+        },
+        "Part_2": {
+            "frame": { "x": 205, "y": 0, "w": 205, "h": 229 },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 205, "h": 229 },
+            "sourceSize": { "w": 205, "h": 229 }
+        },
+        "Part_3": {
+            "frame": { "x": 410, "y": 0, "w": 205, "h": 229 },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 205, "h": 229 },
+            "sourceSize": { "w": 205, "h": 229 }
+        },
+        "Part_4": {
+            "frame": { "x": 615, "y": 0, "w": 205, "h": 229 },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 205, "h": 229 },
+            "sourceSize": { "w": 205, "h": 229 }
+        },
+        "Part_5.png": {
+            "frame": { "x": 820, "y": 0, "w": 205, "h": 229 },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 205, "h": 229 },
+            "sourceSize": { "w": 205, "h": 229 }
+        },
+        "Part_6": {
+            "frame": { "x": 1025, "y": 0, "w": 205, "h": 229 },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 205, "h": 229 },
+            "sourceSize": { "w": 205, "h": 229 }
+        },
+        "Part_7": {
+            "frame": { "x": 1230, "y": 0, "w": 205, "h": 229 },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 205, "h": 229 },
+            "sourceSize": { "w": 205, "h": 229 }
+        }
+    },
+    "meta": {
+        "app": "https://www.codeandweb.com/texturepacker",
+        "version": "1.0",
+        "image": "confetti.png",
+        "format": "RGBA8888",
+        "size": { "w": 1435, "h": 229 },
+        "scale": "1",
+        "smartupdate": "$TexturePacker:SmartUpdate:1b2e34399645730e149df87109b7047f:ffa9fb5bf07c95e06733f5b4ee52e001:ccbf4012fa8c0448f9f3ca62cd41a029$"
+    }
+}
