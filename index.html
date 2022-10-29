@@ -13,17 +13,38 @@
     <meta property="og:image" content="" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css" />
 
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+        /* @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap'); */
 
         /* @font-face {
             font-family: 'font1';
             src: url("./assets/ANTON-REGULAR.TTF");
         } */
         /******************* OTP **************************************/
+        body {
+            -webkit-animation-delay: 0.1s;
+            -webkit-animation-name: fontfix;
+            -webkit-animation-duration: 0.1s;
+            -webkit-animation-iteration-count: 1;
+            -webkit-animation-timing-function: linear;
+        }
+
+        @-webkit-keyframes fontfix {
+            from {
+                opacity: 1;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
         body {
             background-color: #FED86B;
             /* background-image: url(./assets/BG-Image.png);
@@ -395,7 +416,7 @@
         #gameDiv {
             background-color: #FED86B;
             position: fixed;
-    overflow: hidden;
+            overflow: hidden;
             /* background-image: url(./assets/BG-Image.png);
             background-size: contain; */
         }
@@ -412,9 +433,9 @@
             z-index: 10000;
         }
 
-        canvas{
+        canvas {
             position: fixed;
-    overflow: hidden;
+            overflow: hidden;
         }
     </style>
 
@@ -427,12 +448,12 @@
             <div class="bar shadow overlap"></div>
         </div>
     </div> -->
-    <audio preload id="error">
-        <source src="https://snktcodes.github.io/songSolveFinal/assets/audio/error.mp3" type="audio/mpeg">
+    <!-- <audio preload id="place">
+        <source src="https://snktcodes.github.io/songSolveFinal/assets/audio/place1.mp3" type="audio/mpeg">
     </audio>
     <audio preload id="suck">
         <source src="https://snktcodes.github.io/songSolveFinal/assets/audio/suck.mp3" type="audio/mpeg">
-    </audio>
+    </audio> -->
 
     <!-- 
     <audio preload id="1_1">
